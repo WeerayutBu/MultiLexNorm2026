@@ -3,7 +3,9 @@ This repository provides a demo for the MultiLexNorm shared task.
 It demonstrates how to download the dataset, run a simple baseline model (MFR), and evaluate normalization results.
 
 
-[**Full code is available here**](demo.ipynb).
+- [**Full code is available here**](demo.ipynb).
+- The datasets will be available at [dev](https://huggingface.co/datasets/weerayut/multilexnorm2026-dev-pub) and [full](https://huggingface.co/datasets/weerayut/multilexnorm2026-dev-pub).
+- Example MFR submission outputs: `outputs/submission_dev.zip` and `outputs/submission_full.zip`
 
 ## Set up the environment
 ```bash
@@ -15,8 +17,6 @@ pip install -r requirements.txt
 ```
 
 ## Load data
-
-The datasets will be available at [train](https://huggingface.co/datasets/weerayut/multilexnorm2026-pub) and [test](https://huggingface.co/datasets/weerayut/multilexnorm2026-test).
 
 ```python
 from datasets import load_dataset
